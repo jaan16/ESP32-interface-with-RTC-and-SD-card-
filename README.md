@@ -6,22 +6,6 @@
 ## Overview
 This **ESP32 Interface with RTC and SD Card** project integrates essential functionalities such as USB to UART bridging, power supply regulation, SD card connectivity, and real-time clock (RTC) management. This open-source project provides detailed schematic diagrams, PCB layouts, and documentation, making it a valuable resource for embedded system engineers and hobbyists working with ESP32-based systems.
 
-## Project Structure
-
-ESP32-Interface-with-RTC-and-SD-Card/    
-├── Schematic/
-│   ├── esp32_interface.sch     # Main schematic design file (EasyEDA format)
-│   ├── esp32_interface.json    # JSON representation of the schematic
-├── PCB_Layout/
-│   ├── esp32_interface.pcb     # PCB layout design (EasyEDA format)
-│   ├── Gerber_Files.zip        # Gerber files for PCB manufacturing
-├── Documentation/
-│   ├── BOM.csv                 # Bill of Materials with detailed component list
-│   ├── ReadMe.md               # Comprehensive project documentation
-└── Images/
-    ├── schematic_preview.png   # Preview image of the schematic diagram
-    ├── pcb_preview.png         # Preview image of the PCB layout
-
 ## Features
 - **ESP32 Module**: Central microcontroller for managing and executing tasks.
 - **Power Supply**: Stable voltage regulation ensuring reliable power to all components.
@@ -51,4 +35,4 @@ The `BOM.csv` file in the Documentation folder lists all necessary components wi
 ### Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/ESP32-Interface-with-RTC-and-SD-Card.git
+   git clone https://github.com/jaan16/ESP32-Interface-with-RTC-and-SD-Card.git
